@@ -1,0 +1,94 @@
+{
+  "name": "@crashbytes/mcp-test-kit",
+  "version": "0.1.0",
+  "description": "Testing framework for Model Context Protocol (MCP) servers - Jest/Vitest for MCP",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./matchers": {
+      "import": "./dist/matchers/index.js",
+      "require": "./dist/matchers/index.js",
+      "types": "./dist/matchers/index.d.ts"
+    },
+    "./mocks": {
+      "import": "./dist/mocks/index.js",
+      "require": "./dist/mocks/index.js",
+      "types": "./dist/mocks/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build && npm test",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "testing",
+    "jest",
+    "vitest",
+    "test-framework",
+    "ai",
+    "llm",
+    "anthropic",
+    "claude",
+    "mcp-server",
+    "testing-library",
+    "mcp-testing",
+    "integration-testing"
+  ],
+  "author": "Michael Eakins <michael@crashbytes.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrashBytes/mcp-test-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrashBytes/mcp-test-kit/issues"
+  },
+  "homepage": "https://github.com/CrashBytes/mcp-test-kit#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vitest/coverage-v8": "^2.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "vitest": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vitest": {
+      "optional": true
+    }
+  }
+}
