@@ -7,17 +7,17 @@
 
 ## 📖 Table of Contents
 
-- [What is MCP?](#what-is-mcp)
-- [What is MCP Test Kit?](#what-is-mcp-test-kit)
-- [Why Use MCP Test Kit?](#why-use-mcp-test-kit)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Core Concepts](#core-concepts)
-- [API Reference](#api-reference)
-- [Examples](#examples)
-- [Best Practices](#best-practices)
-- [Contributing](#contributing)
-- [License](#license)
+- [What is MCP?](#-what-is-mcp)
+- [What is MCP Test Kit?](#-what-is-mcp-test-kit)
+- [Why Use MCP Test Kit?](#-why-use-mcp-test-kit)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Core Concepts](#-core-concepts)
+- [API Reference](#-api-reference)
+- [Examples](#-examples)
+- [Best Practices](#-best-practices)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🤔 What is MCP?
 
