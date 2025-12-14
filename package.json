@@ -1,6 +1,6 @@
 {
   "name": "@crashbytes/mcp-test-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Testing framework for Model Context Protocol (MCP) servers - Jest/Vitest for MCP",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
