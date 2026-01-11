@@ -1,5 +1,8 @@
 # MCP Test Kit
 
+[![Tests](https://github.com/CrashBytes/map-test-kit/workflows/Tests/badge.svg)](https://github.com/CrashBytes/map-test-kit/actions)
+[![codecov](https://codecov.io/gh/CrashBytes/map-test-kit/branch/main/graph/badge.svg)](https://codecov.io/gh/CrashBytes/map-test-kit)
+
 > **A comprehensive testing framework for Model Context Protocol (MCP) servers**
 
 [![npm version](https://img.shields.io/npm/v/@crashbytes/mcp-test-kit.svg)](https://www.npmjs.com/package/@crashbytes/mcp-test-kit)
