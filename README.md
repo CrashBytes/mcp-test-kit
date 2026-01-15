@@ -1,7 +1,7 @@
 # MCP Test Kit
 
-[![Tests](https://github.com/CrashBytes/map-test-kit/workflows/Tests/badge.svg)](https://github.com/CrashBytes/map-test-kit/actions)
-[![codecov](https://codecov.io/gh/CrashBytes/map-test-kit/branch/main/graph/badge.svg)](https://codecov.io/gh/CrashBytes/map-test-kit)
+[![Tests](https://github.com/CrashBytes/mcp-test-kit/workflows/Tests/badge.svg)](https://github.com/CrashBytes/mcp-test-kit/actions)
+[![codecov](https://codecov.io/gh/CrashBytes/mcp-test-kit/branch/main/graph/badge.svg)](https://codecov.io/gh/CrashBytes/mcp-test-kit)
 
 > **A comprehensive testing framework for Model Context Protocol (MCP) servers**
 
@@ -42,11 +42,10 @@ Here are some practical MCP servers you might build:
 
 ### How MCP Works
 
-```
-┌─────────────┐         ┌──────────────┐         ┌──────────────┐
-│   Claude    │ ←─MCP──→│  MCP Server  │ ←──────→│  Your Data   │
-│  (Client)   │         │  (Your Code) │         │  or Service  │
-└─────────────┘         └──────────────┘         └──────────────┘
+```mermaid
+graph LR
+    A[Claude<br/>Client] <-->|MCP| B[MCP Server<br/>Your Code]
+    B <--> C[Your Data<br/>or Service]
 ```
 
 The MCP server acts as a bridge between Claude and your data/services, exposing them through a standardized protocol.
