@@ -126,3 +126,4 @@ describe('MockMCPServer - tools management', () => {
     expect(tools).toHaveLength(1);
     expect(tools[0].name).toBe('new-tool');
   });
+});
