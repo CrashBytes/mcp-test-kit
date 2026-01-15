@@ -6,19 +6,19 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     },
     "./matchers": {
+      "types": "./dist/matchers/index.d.ts",
       "import": "./dist/matchers/index.js",
-      "require": "./dist/matchers/index.js",
-      "types": "./dist/matchers/index.d.ts"
+      "require": "./dist/matchers/index.js"
     },
     "./mocks": {
+      "types": "./dist/mocks/index.d.ts",
       "import": "./dist/mocks/index.js",
-      "require": "./dist/mocks/index.js",
-      "types": "./dist/mocks/index.d.ts"
+      "require": "./dist/mocks/index.js"
     }
   },
   "files": [
@@ -69,7 +69,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.4"
+    "@modelcontextprotocol/sdk": "^1.25.2"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
@@ -80,15 +80,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.0",
-    "typescript": "^5.6.0",
-    "vitest": "^2.0.0"
-  },
-  "peerDependencies": {
-    "vitest": ">=1.0.0"
-  },
-  "peerDependenciesMeta": {
-    "vitest": {
-      "optional": true
-    }
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9"
   }
 }
