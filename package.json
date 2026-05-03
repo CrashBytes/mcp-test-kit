@@ -1,6 +1,6 @@
 {
   "name": "@crashbytes/mcp-test-kit",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Testing framework for Model Context Protocol (MCP) servers - Jest/Vitest for MCP",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -69,18 +69,18 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.1"
+    "@modelcontextprotocol/sdk": "^1.29.0"
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
-    "@typescript-eslint/eslint-plugin": "^8.56.1",
-    "@typescript-eslint/parser": "^8.56.1",
+    "@typescript-eslint/eslint-plugin": "^8.59.1",
+    "@typescript-eslint/parser": "^8.59.1",
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^10.0.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "prettier": "^3.8.1",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "vitest": "^4.0.18"
   }
 }
