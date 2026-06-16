@@ -72,7 +72,8 @@
     "@modelcontextprotocol/sdk": "^1.29.0"
   },
   "overrides": {
-    "fast-uri": ">=3.1.2"
+    "fast-uri": ">=3.1.2",
+    "hono": ">=4.12.25"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
