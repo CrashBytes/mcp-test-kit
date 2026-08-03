@@ -73,8 +73,13 @@
   },
   "overrides": {
     "fast-uri": ">=4.1.1",
-    "hono": ">=4.12.25",
-    "brace-expansion": ">=5.0.8"
+    "hono": ">=4.12.27",
+    "brace-expansion": ">=5.0.8",
+    "@hono/node-server": ">=2.0.5",
+    "express-rate-limit": ">=8.5.1",
+    "ip-address": ">=10.1.1",
+    "body-parser": ">=2.3.0",
+    "qs": ">=6.15.2"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
