@@ -241,12 +241,12 @@ registerVitestMatchers();
 
 // Type declarations for TypeScript
 declare module 'vitest' {
-  interface Assertion<T = any> {
-    toBeValidMCPTool(): T;
-    toBeValidMCPResource(): T;
-    toMatchMCPToolResponse(expected?: Partial<MCPToolResult>): T;
-    toMatchMCPError(expected: Partial<MCPError> & { message?: string | RegExp }): T;
-    toHaveMCPProtocolVersion(version: string): T;
+  interface Assertion {
+    toBeValidMCPTool(): any;
+    toBeValidMCPResource(): any;
+    toMatchMCPToolResponse(expected?: Partial<MCPToolResult>): any;
+    toMatchMCPError(expected: Partial<MCPError> & { message?: string | RegExp }): any;
+    toHaveMCPProtocolVersion(version: string): any;
   }
 
   interface AsymmetricMatchersContaining {
