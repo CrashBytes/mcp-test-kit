@@ -80,7 +80,8 @@
     "ip-address": ">=10.1.1",
     "body-parser": ">=2.3.0",
     "qs": ">=6.16.0",
-    "@humanfs/node": ">=0.16.8"
+    "@humanfs/node": ">=0.16.8",
+    "proxy-addr": ">=2.0.8"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
